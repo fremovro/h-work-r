@@ -34,7 +34,7 @@
     </div>
     <h4>{{t "menu.listOfReports"}}</h4>
     <ul class="list-group">
-        {{#each meeting.lectures as |lecture|}}
+        {{#each lectures as |lecture|}}
             {{lecture-item lecture=lecture}}
         {{/each}}
     </ul>

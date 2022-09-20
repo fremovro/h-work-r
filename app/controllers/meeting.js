@@ -34,6 +34,9 @@ export default Controller.extend({
     }),
 
     actions: {
+        setDate(val) {
+            this.set('date', val);
+        },
         async deleteMeeting(meeting) {
             try {
                 let temp = meeting; let temp2 =[], temp3=[];

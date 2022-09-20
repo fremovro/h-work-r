@@ -498,6 +498,132 @@
       "currentURL": "http://localhost:4200/speakers",
       "message": "result is not defined",
       "id": 31
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 15:56:50 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/login",
+      "message": null,
+      "id": 32
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:11:06 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 33
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:11:25 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 34
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:12:06 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember544>.",
+      "id": 35
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:12:09 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember544>.",
+      "id": 36
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:12:38 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember544>.",
+      "id": 37
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:12:50 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: An action named 'setDate' was not found in <h-work-2@controller:meeting::ember544>",
+      "id": 38
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:13:10 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: An action named 'setDate' was not found in <h-work-2@controller:meeting::ember544>",
+      "id": 39
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:27:54 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings?page=2",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 40
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:28:02 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember555>.",
+      "id": 41
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:29:11 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 42
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:29:17 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 43
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:29:20 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 44
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:29:49 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 45
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 18:29:59 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "Assertion Failed: Action passed is null or undefined in (action) from <h-work-2@controller:meeting::ember548>.",
+      "id": 46
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 19:00:08 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings?date=2022-08-12",
+      "message": "joinArguments is not defined",
+      "id": 47
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 19:11:19 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "joinArguments is not defined",
+      "id": 48
+    },
+    {
+      "currentDate": "Tue Sep 20 2022 19:11:22 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/meetings",
+      "message": "joinArguments is not defined",
+      "id": 49
     }
   ]
 }

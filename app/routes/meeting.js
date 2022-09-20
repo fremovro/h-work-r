@@ -26,18 +26,17 @@ export default Route.extend(AuthenticatedRouteMixin, {
         if(speaker) query.speaker = speaker;
         if(book) query.book = book;
         if(date) query.date = date;
-        
         return RSVP.hash({
             meetings: this.get('store').query('meeting', query),
             speakers: this.get('store').findAll('speaker'),
             books: this.get('store').findAll('book')
         });
     },
-    
+
     actions: {
         reloadModel() {
             this.refresh();
-        },
+        }
     },
 
     setupController(controller, model) {

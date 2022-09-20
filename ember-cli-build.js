@@ -26,6 +26,10 @@ module.exports = function(defaults) {
   app.import('vendor/tagsinput.css');
   app.import('vendor/bootstrap-datepicker.css');
 
+  const js = funnel('node_modules/bootstrap/dist/js', {
+    files: ['**/*.js'],
+    destDir: 'bootstrap/js'
+  });
   const jsFiles = funnel('vendor', {
     files: ['popper.min.js', 'tagsinput.js', 'bootstrap-file.js', 'bootstrap-datepicker.min.js', 'bootstrap-datepicker.ru.min.js', 'bootstrap-select.min.js'],
     destDir: 'js'
@@ -35,5 +39,5 @@ module.exports = function(defaults) {
     destDir: 'js'
   });
 
-  return app.toTree([jsFiles, jqueryFiles]);
+  return app.toTree([jsFiles, jqueryFiles, js]);
 };
