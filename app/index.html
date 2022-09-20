@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HWork2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/h-work-2.css">
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/h-work-2.js"></script>
+
+    <script src="{{rootURL}}js/popper.min.js"></script>
+    <script src="{{rootURL}}js/tagsinput.js"></script>
+    <!-- <script src="{{rootURL}}js/bootstrap-datepicker.min.js"></script>
+    <script src="{{rootURL}}js/bootstrap-datepicker.ru.min.js"></script>
+    <script src="{{rootURL}}js/bootstrap-select.min.js"></script> -->
+
+    <script src="{{rootURL}}js/vendor/jquery.ui.widget.js"></script>
+    <script src="{{rootURL}}js/jquery.iframe-transport.js"></script>
+    <script src="{{rootURL}}js/jquery.fileupload.js"></script>
+    <script src="{{rootURL}}js/jquery.fileupload-process.js"></script>
+    {{content-for "body-footer"}}
+  </body>
+</html>

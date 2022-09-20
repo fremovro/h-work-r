@@ -1,0 +1,63 @@
+<header class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">
+        <img src="images/logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        {{t "menu.logo"}}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="nav navbar-nav navigation-main">
+            <li class="nav-item">
+                {{#link-to "index" class="nav-link"}}{{t "menu.workTable"}}{{/link-to}}
+            </li>
+            <li class="nav-item">
+                {{#link-to "meeting" class="nav-link"}}{{t "menu.clubsMeetings"}}{{/link-to}}
+            </li>
+            <li class="nav-item">
+                {{#link-to "book" class="nav-link"}}{{t "menu.books"}}{{/link-to}}
+            </li>
+            <li class="nav-item">
+                {{#link-to "speaker" class="nav-link"}}{{t "menu.speakers"}}{{/link-to}}
+            </li>
+            {{!-- <li class="nav-item">
+                <a class="nav-link text-succes" href="#">Оставить заявку</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="#">Запланировать</a>
+            </li> --}}
+        </ul>
+
+        <ul class="nav navbar-nav">
+            {{#if session.isAuthenticated}}
+                <li class="nav-item">
+                    <a class="nav-link" onclick={{action "logout"}}>{{t "menu.logout"}}</a>
+                </li>
+            {{else}}
+                <li class="nav-item">
+                    {{#link-to "register" class="nav-link text-info"}}{{t "menu.registration"}}{{/link-to}}
+                </li>
+                <li class="nav-item">
+                    {{#link-to "login" class="nav-link"}}{{t "menu.login"}}{{/link-to}}
+                </li>
+            {{/if}}
+        </ul>
+
+        <div class="current-user">
+            <select id="languageSelect" onchange={{action "changeLocale"}}>
+                <option value="ru" selected={{isRussian}}>ru</option>
+                <option value="en" selected={{isEnglish}}>en</option>
+            </select>
+        </div>
+    </div>
+</header>
+
+<div class="container h-100">
+    {{outlet}}
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>&copy; New Platform Ltd., 2022</span>
+    </div>
+</footer>

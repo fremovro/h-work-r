@@ -1,0 +1,25 @@
+<div class="htop">
+    <h2 class="text-center">{{t "menu.speakers"}}</h2>
+    <div class="form-row navbar-panel justify-content-between">
+        {{#if (await (can "edit book"))}}
+            <div class="col-md-auto">
+                {{#link-to "add-speaker" class="btn btn-outline-primary my-2" title=(t "menu.addSpeaker")}}
+                    <svg viewBox="0 0 16 16" class="bi bi-plus card-button" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                {{/link-to}}
+            </div>
+        {{/if}}
+        <div class="col-md-auto">
+            <div class="form-inline">
+                {{input class="form-control mr-2 search-long search-only" type="search" aria-label="Спикер" value=search}}
+                <button class="btn btn-primary my-2" onclick={{action "updatePage"}}>{{t "menu.find"}}</button>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3">
+        {{#each model as |speaker|}}
+            {{speaker-item delSpeaker=(action "deleteSpeaker") speaker=speaker}}
+        {{/each}}
+    </div>
+</div>

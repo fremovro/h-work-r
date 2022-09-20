@@ -1,0 +1,503 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Игрок",
+      "author": "Фёдор Достоевский",
+      "size": "223",
+      "description": "https://www.litres.ru/fedor-dostoevskiy/igrok-5004024/",
+      "tags": [
+        "Русская классика",
+        "Классическая проза"
+      ],
+      "coverURL": "/uploads/cover1__w340-1659880124912.jpg",
+      "user": 1
+    },
+    {
+      "id": 2,
+      "name": "Колыбельная",
+      "author": "Чак Паланик",
+      "size": "317",
+      "description": "https://www.litres.ru/chak-palanik/kolybelnaya/",
+      "tags": [
+        "Зарубежная литература"
+      ],
+      "coverURL": "/uploads/large_uk403721-1659524542515.jpg",
+      "user": 1
+    },
+    {
+      "id": 3,
+      "name": "Мы",
+      "author": "Евгений замятин",
+      "size": "221",
+      "description": "https://www.litres.ru/evgeniy-zamyatin/my-7444105/",
+      "tags": [
+        "Отечественная классика",
+        "Социальная психология"
+      ],
+      "coverURL": "/uploads/7444105-evgeniy-zamyatin-my-7444105-1660224126407.jpg",
+      "user": 1
+    },
+    {
+      "name": "Нужные вещи",
+      "author": "Стивен Кинг",
+      "size": "861",
+      "description": "https://www.livelib.ru/book/1000437906-nuzhnye-veschi-stiven-king",
+      "tags": [
+        "Зарубежная литература",
+        "Ужасы",
+        "Мистика"
+      ],
+      "coverURL": "/uploads/18371557-stiven-king-nuzhnye-veschi-18371557-1662010727428.jpg",
+      "user": 1,
+      "id": 4
+    },
+    {
+      "name": "Бойцовский клуб",
+      "author": "Чак Паланик",
+      "size": "254",
+      "description": "https://www.livelib.ru/book/1005912529-bojtsovskij-klub-chak-palanik",
+      "tags": [
+        "Бестселлер",
+        "Современная проза",
+        "Контркультура"
+      ],
+      "coverURL": "/uploads/boocover-1662010945722.jpg",
+      "user": 1,
+      "id": 5
+    },
+    {
+      "name": "Бог как иллюзия",
+      "author": "Ричард Докинз",
+      "size": "507",
+      "description": "https://www.livelib.ru/book/1001525231-bog-kak-illyuziya-richard-dokinz",
+      "tags": [
+        "Религиоведение",
+        "Научно-популярная литература"
+      ],
+      "coverURL": "/uploads/TheGodDelusion(rus)-1662011245780.jpg",
+      "user": 1,
+      "id": 6
+    },
+    {
+      "name": "Портрет Дориана Грея",
+      "author": "Оскар Уайльд",
+      "size": "298",
+      "description": "https://www.livelib.ru/book/1002932985-portret-doriana-greya-oskar-uajld",
+      "tags": [
+        "Классическая литература",
+        "Литература 19 века"
+      ],
+      "coverURL": "/uploads/images-1662011364495.jpg",
+      "user": 1,
+      "id": 7
+    }
+  ],
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Роман",
+      "surname": "Ефремов",
+      "patronymic": "Сергеевич",
+      "user": 1
+    },
+    {
+      "id": 2,
+      "name": "Кристина",
+      "surname": "Ласюкова",
+      "patronymic": "Александровна",
+      "user": 1
+    },
+    {
+      "name": "Иван",
+      "surname": "Быков",
+      "patronymic": "Владимирович",
+      "user": 1,
+      "id": 3
+    },
+    {
+      "name": "Сергей",
+      "surname": "Сергеев",
+      "patronymic": "Сергеевич",
+      "user": 1,
+      "id": 4
+    },
+    {
+      "name": "Фёдор",
+      "surname": "Фёдоров",
+      "patronymic": "Фёдорович",
+      "user": 1,
+      "id": 5
+    },
+    {
+      "name": "Дмитрий",
+      "surname": "Дмитриев",
+      "patronymic": "Дмитриевич",
+      "userId": 1,
+      "id": 6
+    }
+  ],
+  "lectures": [
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "80",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Рано или поздно слабость порабощает. А зависимость - уничтожает. Происходит это только со слабыми и подверженными влиянию людьми? Пожалуй, нет. Это может произойти с каждым... Книга очередной раз доказывает, что человек - раб своих страстей.",
+      "bookId": 1,
+      "speakerId": 1,
+      "meetingId": 1,
+      "user": 1,
+      "id": 1
+    },
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "90",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Проникаешься историей каждого маленького человека в маленьком городке, который, проходя мимо выделяющейся среди всех витрин нового магазина, видит то,что ему действительно нужно. каждый находит себя в этом магазине, открывает какие-то воспоминания, к которым в дальнейшем и возвращается, однако не все так просто с этими \"нужными вещами\"...",
+      "bookId": 4,
+      "speakerId": 2,
+      "meetingId": 1,
+      "user": 1,
+      "id": 2
+    },
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "65",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Сама задумка с колыбельной песней, услышав которую люди умирают, заманчивая. Но с середины книги это всё превращается в полный абсурд, в котором эта самая Колыбельная обретает какие-то немыслимые силы, а помимо неё оказывается ещё куча каких-то магических заклинаний, смещающих \" баюльную песню\" на второй план.",
+      "bookId": 2,
+      "speakerId": 4,
+      "meetingId": 1,
+      "user": 1,
+      "id": 3
+    },
+    {
+      "date": "2022-08-20T19:00:00.000Z",
+      "rating": "75",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Интересная антиутопия на уровне 1984, стоит прочитать, написано с душой, рекомендую тем, кто любит мрачную литературу и когда не все радужно.",
+      "bookId": 3,
+      "speakerId": 4,
+      "meetingId": 2,
+      "user": 1,
+      "id": 4
+    },
+    {
+      "date": "2022-08-20T19:00:00.000Z",
+      "rating": "80",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Книга не плоха, но и не хороша. Порой нудна. И хотя позиция автора представляется логически обоснованной, некоторые доводы в пользу атеизма кажутся неубедительными, спорными, \"притянутыми за уши\". В целом полезна. Религиозного человека она вряд ли способна переубедить.",
+      "bookId": 6,
+      "speakerId": 5,
+      "meetingId": 2,
+      "user": 1,
+      "id": 5
+    },
+    {
+      "date": "2022-08-20T19:00:00.000Z",
+      "rating": "50",
+      "presentURL": "2",
+      "videoURL": "2",
+      "review": "Единственное, что мне понравилось, это переодически возникающие философские размышления героя на тему власти, тему жизни и смерти, отношения людей друг к другу и животным. Вот здесь реально хочется аплодировать стоя. Но даже это книгу не спасает.",
+      "bookId": 2,
+      "speakerId": 3,
+      "meetingId": 2,
+      "user": 1,
+      "id": 6
+    },
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "100",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Очень интересное произведение, которое можно несколько раз перечитывать и обнаруживать новые смыслы. Книга довольно многогранна и мне кажется, что нет смысла разбирать отдельные аспекты. Лучше прочесть самому.",
+      "bookId": 5,
+      "speakerId": 1,
+      "meetingId": 3,
+      "user": 1,
+      "id": 7
+    },
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "80",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Несмотря на предсказуемый сюжет и его легкость — роман по праву, справедливо оценен очень высоко среди читателей. Те же люди, которые сочли роман глупым, скорее всего просто не поняли концепт, или, не желают сливаться с толпой, у какой примерно идентичное мнение. В общем, здесь установка «Не понравилось — значит не поняли.» ",
+      "bookId": 7,
+      "speakerId": 5,
+      "meetingId": 3,
+      "user": 1,
+      "id": 8
+    },
+    {
+      "date": "2022-08-11T19:00:00.000Z",
+      "rating": "90",
+      "presentURL": "1",
+      "videoURL": "1",
+      "review": "Уже не в первый раз убеждаюсь, что в романах С. Кинга за внешними эффектами от леденящих душу ужасов кроются серьёзные размышления о важных проблемах. Так и в романе «Нужные вещи» Король ужасов предлагает нам поразмыслить над природой человеческой души.",
+      "bookId": 4,
+      "speakerId": 2,
+      "meetingId": 3,
+      "user": 1,
+      "id": 9
+    }
+  ],
+  "meetings": [
+    {
+      "eventDate": "2022-08-11T19:00:00.000Z",
+      "user": 1,
+      "id": 1
+    },
+    {
+      "eventDate": "2022-08-20T19:00:00.000Z",
+      "user": 1,
+      "id": 2
+    },
+    {
+      "eventDate": "2022-08-11T19:00:00.000Z",
+      "user": 1,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@mail.ru",
+      "password": "aed439235437c68773dcb392849729f25edc0dd67119722c2a172e3fa5350711",
+      "id": 1
+    },
+    {
+      "email": "fremov.ro@mail.ru",
+      "password": "6762a230543c8b125e59ca28c91a213344d142d4d99d73c9694367dc48cb4955",
+      "id": 2
+    },
+    {
+      "email": "test@test.com",
+      "password": "6de069e7b4fe10d5515cfc66178e09e2830cf4e24447c908843dd8a62c9f1268",
+      "id": 3
+    }
+  ],
+  "logs": [
+    {
+      "currentDate": "Wed Sep 14 2022 12:16:43 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/register",
+      "message": "Assertion Failed: EmberObject.create no longer supports defining computed properties. Define computed properties using extend() or reopen() before calling create().",
+      "id": 1
+    },
+    {
+      "currentDate": "Wed Sep 14 2022 12:26:48 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/register",
+      "message": "Assertion Failed: EmberObject.create no longer supports defining computed properties. Define computed properties using extend() or reopen() before calling create().",
+      "id": 2
+    },
+    {
+      "currentDate": "Wed Sep 14 2022 12:27:26 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/register",
+      "message": "Assertion Failed: EmberObject.create no longer supports defining computed properties. Define computed properties using extend() or reopen() before calling create().",
+      "id": 3
+    },
+    {
+      "currentDate": "Wed Sep 14 2022 17:42:51 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/register",
+      "message": "Assertion Failed: EmberObject.create no longer supports defining computed properties. Define computed properties using extend() or reopen() before calling create().",
+      "id": 4
+    },
+    {
+      "currentDate": "Wed Sep 14 2022 18:26:00 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/login",
+      "message": null,
+      "id": 5
+    },
+    {
+      "currentDate": "Wed Sep 14 2022 20:14:13 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/books",
+      "message": "joinArguments is not defined",
+      "id": 6
+    },
+    {
+      "currentDate": "Thu Sep 15 2022 10:22:47 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-meeting-lecture/7",
+      "message": "Assertion Failed: {{power-select}} If you want the default filtering to work on options that are not plain strings, you need to provide `searchField`",
+      "id": 7
+    },
+    {
+      "currentDate": "Thu Sep 15 2022 11:06:03 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-meeting/5",
+      "message": "Assertion Failed: You attempted to define a `{{link-to \"edit-meeting-lecture\"}}` but did not pass the parameters required for generating its dynamic segments. More context objects were passed than there are dynamic segments for the route: edit-meeting-lecture",
+      "id": 8
+    },
+    {
+      "currentDate": "Thu Sep 15 2022 11:07:38 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-lecture/6",
+      "message": "Assertion Failed: {{power-select}} If you want the default filtering to work on options that are not plain strings, you need to provide `searchField`",
+      "id": 9
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:29:24 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "Assertion Failed: You attempted to define a `{{link-to \"edit-speaker\"}}` but did not pass the parameters required for generating its dynamic segments. Cannot read properties of undefined (reading 'get')",
+      "id": 10
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:29:40 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "Assertion Failed: You attempted to define a `{{link-to \"edit-speaker\"}}` but did not pass the parameters required for generating its dynamic segments. Cannot read properties of undefined (reading 'get')",
+      "id": 11
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:31:01 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "Assertion Failed: You attempted to define a `{{link-to \"edit-speaker\"}}` but did not pass the parameters required for generating its dynamic segments. Cannot read properties of undefined (reading 'get')",
+      "id": 12
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:31:31 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "Assertion Failed: You attempted to define a `{{link-to \"edit-speaker\"}}` but did not pass the parameters required for generating its dynamic segments. Cannot read properties of undefined (reading 'get')",
+      "id": 13
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:44:18 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 14
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 12:45:07 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 15
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 13:27:18 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 16
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 13:39:22 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 17
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 13:56:46 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 18
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 13:57:49 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 19
+    },
+    {
+      "currentDate": "Fri Sep 16 2022 13:58:23 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/add-book",
+      "message": "joinArguments is not defined",
+      "id": 20
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:47:34 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=1",
+      "message": "joinArguments is not defined",
+      "id": 21
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:48:14 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=1",
+      "message": "search is not defined",
+      "id": 22
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:51:32 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=%D0%A0%D0%BE%D0%BC%D0%B0",
+      "message": "search is not defined",
+      "id": 23
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:52:14 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=%D0%A0%D0%BE%D0%BC%D0%B0",
+      "message": "search is not defined",
+      "id": 24
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:53:51 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=%D1%80",
+      "message": "search is not defined",
+      "id": 25
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:56:12 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=%D1%80",
+      "message": "search is not defined",
+      "id": 26
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 16:58:52 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=%D1%80",
+      "message": "this.get is not a function",
+      "id": 27
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 17:12:34 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers?search=r",
+      "message": "search is not defined",
+      "id": 28
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 17:37:25 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "getSpeakers is not defined",
+      "id": 29
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 17:45:09 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "joinArguments is not defined",
+      "id": 30
+    },
+    {
+      "currentDate": "Sat Sep 17 2022 17:45:57 GMT+0500 (Екатеринбург, стандартное время)",
+      "ipAdress": "::1",
+      "currentURL": "http://localhost:4200/speakers",
+      "message": "result is not defined",
+      "id": 31
+    }
+  ]
+}

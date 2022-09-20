@@ -1,0 +1,30 @@
+<form onsubmit={{action "login"}}>
+  <img class="mb-4" src="images/logo-dark.png" alt="" height="57">
+  <h1 class="h3 mb-3 fw-normal">{{t "menu.entry"}}</h1>
+
+  {{#if (v-get this 'email' 'isInvalid')}}
+    <span class="error-message">
+      {{v-get this 'email' 'message'}}
+    </span>
+  {{/if}} 
+  <div class="form-floating">
+    {{input type="text" placeholder=(t "menu.email") value=email}}
+  </div>
+
+  {{#if (v-get this 'password' 'isInvalid')}}
+    <span class="error-message">
+      {{v-get this 'password' 'message'}}
+    </span>
+  {{/if}}  
+  <div class="form-floating">
+    {{input type="password" placeholder=(t "menu.password") value=password}}
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me" onchange={{action (mut remember)}}>{{t "menu.remember"}}
+    </label>
+  </div>
+  {{!-- <a class="w-100">Назад</a> --}}
+  <button type="submit" class="w-100 btn btn-lg btn-primary mb-3">{{t "menu.login"}}</button>
+</form>
